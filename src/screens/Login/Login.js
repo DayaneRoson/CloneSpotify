@@ -39,6 +39,7 @@ import { style } from './styles';
           <TextInput
             style={style.input}
             placeholder="Senha"
+            autoComplete={false}
             secureTextEntry={typeKeyboard}
             placeholderTextColor={'#fff'}>
           </TextInput>
